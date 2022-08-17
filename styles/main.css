@@ -86,7 +86,6 @@ body {
     font-size: 22px;
     text-size-adjust: 100%;
     min-height: 100vh;
-    transition: color .15s ease-in;
 }
 
 .main-container {
@@ -115,10 +114,17 @@ body {
 .social-nav a {
     margin-right: 15px;
     text-decoration: none;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .social-nav a:last-child {
     margin-right: 0;
+}
+
+.social-nav a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
 }
 
 .social-nav a img {
