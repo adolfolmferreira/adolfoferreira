@@ -50,19 +50,26 @@ table {
 }
 
 
-/* ------ FONT FAMILY ------ */
+/* ------ IMPORTS ------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
 
-body {
-    font-family: 'Inter', sans-serif;
+
+/* ------ VARIABLES ------ */
+
+:root {
+    --main-bg-color: #161616;
+    --main-text-color: #FFFFFF;
+    --main-font: 'Inter', sans-serif;
+    --bold-text: 600;
 }
 
-.container {
-    position: fixed;
-    top: 0;
-    width: 90%;
-    height: 90%;
-    background-color: #ec4926;
-    padding: 5%;
+
+/* ------ BODY & HTML ------ */
+
+body {
+    background-color: var(--main-bg-color);
+    font-family: var(--main-font);
+    font-weight: var(--bold-text);
+    text-size-adjust: 100%;
 }
