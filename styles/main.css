@@ -1,3 +1,10 @@
+/* Adolfo Ferreira - Personal Website 
+   v1.0 | August 2022
+*/
+
+
+/* ------ RESET PROPERTIES ------ */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +47,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+/* ------ FONT FAMILY ------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
 }
