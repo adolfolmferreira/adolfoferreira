@@ -59,8 +59,9 @@ table {
 
 :root {
     --main-bg-color: #161616;
-    --main-text-color: #FFFFFF;
-    --sec-text-color: #FFFFFF;
+    --primary-color: #FFFFFF;
+    --secondary-color: #fc4f1e;
+    --tertiary-color: #666666;
     --main-font: 'Inter', sans-serif;
     --bold-text: 600;
 }
@@ -70,7 +71,7 @@ table {
 .nav-wrapper h5 {
     font-size: 22px;
     font-weight: var(--bold-text);
-    color: var(--main-text-color);
+    color: var(--primary-color);
 }
 
 
