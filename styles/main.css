@@ -64,12 +64,52 @@ table {
     --bold-text: 600;
 }
 
+/* ------ TEXT STYLES ------ */
+
+.nav-wrapper h5 {
+    font-size: 22px;
+    font-weight: var(--bold-text);
+    color: var(--main-text-color);
+}
+
 
 /* ------ BODY & HTML ------ */
 
 body {
+    margin-top: 0px;
+    padding-top: 0px;
     background-color: var(--main-bg-color);
     font-family: var(--main-font);
     font-weight: var(--bold-text);
+    font-size: 22px;
     text-size-adjust: 100%;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.nav-menu {
+    height: 34px;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+    line-height: 34px;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.social-nav a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-nav a:last-child {
+    margin-right: 0;
 }
