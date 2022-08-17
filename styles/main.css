@@ -57,3 +57,12 @@ table {
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.container {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 90%;
+    background-color: #ec4926;
+    padding: 5%;
+}
