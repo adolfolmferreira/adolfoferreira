@@ -75,6 +75,10 @@ table {
     color: var(--primary-color);
 }
 
+.social-nav span {
+    font-size: 14px;
+}
+
 .social-nav a#email {
     color: var(--primary-color);
     font-weight: var(--strong-text);
@@ -117,6 +121,7 @@ body {
     background-color: var(--main-bg-color);
     font-family: var(--main-font);
     text-size-adjust: 100%;
+    overscroll-behavior: none;
 }
 
 .main-container {
@@ -163,8 +168,8 @@ body {
     vertical-align: middle;
 }
 
-.social-nav a#email {
-    margin-right: 40px;
+.social-nav span {
+    margin-right: 20px;
 }
 
 
@@ -196,7 +201,7 @@ body {
     background-color: var(--primary-color);
     height: 460px;
     border: 8px solid var(--primary-color);
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .video-container img {
