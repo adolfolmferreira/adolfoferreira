@@ -60,9 +60,9 @@ table {
     --main-bg-color: #161616;
     --primary-color: #FFFFFF;
     --secondary-color: #fc4f1e;
-    --tertiary-color: #666666;
+    --tertiary-color: #8F8F8F;
     --main-font: 'Inter', sans-serif;
-    --sec-font: 'Lora', serif;;
+    --sec-font: 'Space Grotesk', sans-serif;
     --light-text: 300;
     --regular-text: 400;
     --strong-text: 600;
@@ -83,6 +83,15 @@ table {
     margin-bottom: 30px;
 }
 
+.intro-text p {
+    font-family: var(--sec-font);
+    color: var(--tertiary-color);
+    font-size: 18px;
+    font-weight: var(--light-text);
+    line-height: 31px;
+    padding-right: 60px;
+}
+
 
 /* ---------------------------- BODY & HTML ---------------------------- */
 
@@ -91,8 +100,6 @@ body {
     padding-top: 0px;
     background-color: var(--main-bg-color);
     font-family: var(--main-font);
-    font-weight: var(--bold-text);
-    font-size: 22px;
     text-size-adjust: 100%;
 }
 
@@ -148,11 +155,19 @@ body {
 
 .hero-banner {
     display: flex;
-    margin-top: 80px;
+    margin-top: 72px;
     background-color: transparent;
 }
 
 .intro-text {
     width: 50%;
     background-color: transparent;
+}
+
+.video-container {
+    width: 50%;
+    background-color: var(--primary-color);
+    height: 460px;
+    border: 8px solid var(--primary-color);
+    border-radius: 12px;
 }
