@@ -1,9 +1,8 @@
-/* Adolfo Ferreira - Personal Website 
-   v1.0 | August 2022
-*/
+/* ---------------------------- Adolfo Ferreira - Personal Website  ---------------------------- */
+/* ---------------------------- v1.0 | August 2022 ---------------------------- */
 
 
-/* ------ RESET PROPERTIES ------ */
+/* ---------------------------- RESET PROPERTIES ---------------------------- */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,12 +49,12 @@ table {
 }
 
 
-/* ------ IMPORTS ------ */
+/* ---------------------------- IMPORTS ---------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@300&display=swap');
 
 
-/* ------ VARIABLES ------ */
+/* ---------------------------- VARIABLES ---------------------------- */
 
 :root {
     --main-bg-color: #161616;
@@ -63,19 +62,29 @@ table {
     --secondary-color: #fc4f1e;
     --tertiary-color: #666666;
     --main-font: 'Inter', sans-serif;
-    --bold-text: 600;
+    --sec-font: 'Lora', serif;;
+    --light-text: 300;
+    --regular-text: 400;
+    --strong-text: 600;
 }
 
-/* ------ TEXT STYLES ------ */
+/* ---------------------------- TEXT STYLES ---------------------------- */
 
 .nav-wrapper h5 {
     font-size: 22px;
-    font-weight: var(--bold-text);
+    font-weight: var(--strong-text);
     color: var(--primary-color);
 }
 
+.intro-text h1 {
+    font-size: 62px;
+    color: var(--primary-color);
+    font-weight: var(--strong-text);
+    margin-bottom: 30px;
+}
 
-/* ------ BODY & HTML ------ */
+
+/* ---------------------------- BODY & HTML ---------------------------- */
 
 body {
     margin-top: 0px;
@@ -85,13 +94,16 @@ body {
     font-weight: var(--bold-text);
     font-size: 22px;
     text-size-adjust: 100%;
-    min-height: 100vh;
 }
 
 .main-container {
     width: 90%;
     margin: 20px auto 0 auto;
+    background-color: transparent;
 }
+
+
+/* ---------------------------- HEADER & NAVIGATION ---------------------------- */
 
 .nav-bar {
     width: 100%;
@@ -99,7 +111,7 @@ body {
 
 .nav-menu {
     height: 34px;
-    padding: 10px 20px;
+    padding: 10px 0;
     display: flex;
 }
 
@@ -129,4 +141,18 @@ body {
 
 .social-nav a img {
     width: 18px;
+}
+
+
+/* ---------------------------- HERO BANNER ---------------------------- */
+
+.hero-banner {
+    display: flex;
+    margin-top: 80px;
+    background-color: transparent;
+}
+
+.intro-text {
+    width: 50%;
+    background-color: transparent;
 }
