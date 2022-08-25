@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151200246-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151200246-1');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,33 +28,42 @@
 <body>
     <div class="main-container">
         <!-- NAV BAR -->
-        <div class="nav-bar fade-in">
-            <nav role="navigation" class="nav-menu">
-                <div class="nav-wrapper" style="line-height: 34px;">
-                    <h5>Adolfo Ferreira</h5>
-                    <div class="social-nav">
-                        <span>Email me at: <a href="mailto:hello@adolfoferreira.com" title="hello@adolfoferreira.com" id="email">hello@adolfoferreira.com</a></span>
-                        <a href="https://www.instagram.com/fromadolfo/" target="_blank" title="Instagram"><img src="images/instagram.svg" alt="Instagram"></a>
-                        <a href="https://www.linkedin.com/in/iamadolfo/" target="_blank" title="LinkedIn"><img src="images/linkedin.svg" alt="LinkedIn"></a>
-                        <a href="https://twitter.com/fromadolfo" target="_blank" title="Twitter"><img src="images/twitter.svg" alt="Twitter"></a>
-                    </div>
+        <nav class="nav-container fade-in" role="navigation">
+            <div class="logo">
+                <h5>Adolfo Ferreira</h5>
+            </div>
+            <div class="nav-right">
+                <div class="email-container">
+                    <ul>
+                        <li>Email me at:</li>
+                        <li><a href="mailto:hello@adolfoferreira.com?subject=Hello, Adolfo! Let's work together!" title="hello@adolfoferreira.com" target="_blank">hello@adolfoferreira.com</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+                <div class="social-nav">
+                    <ul class="social-items">
+                        <li><a href="https://www.instagram.com/fromadolfo/" target="_blank" title="Instagram"><img src="images/instagram.svg" style="vertical-align: middle; height:18px;" alt="Instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/iamadolfo/" target="_blank" title="LinkedIn"><img src="images/linkedin.svg" style="vertical-align: middle; height:18px;" alt="LinkedIn"></a></li>
+                        <li><a href="https://twitter.com/fromadolfo" target="_blank" title="Twitter"><img src="images/twitter.svg" style="vertical-align: middle; height:18px;" alt="Twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- HERO BANNER -->
         <div class="hero-banner">
             <div class="intro-text">
                 <h1 class="a1 slide-up">Hi, I am Adolfo.</h1>
-                <p class="a2 slide-up">Currently working as Designer at <span><a href="https://spideraf.com/" target="_blank" title="Spider AF | Defend Against Invalid Traffic & Ad Fraud">Spider AF</a></span> from Tokyo 🇯🇵, where I do my best to take the company to the next level collaborating with an amazing team to build the best anti-fraud tool in the market and help our clients protect their marketing budgets.</p>
-                <p style="margin-top: 20px;" class="a3 slide-up">I was born and raised in the 😎 sunny Portugal 🇵🇹 and I design simple and clean interfaces and digital experiences such as Branding, Web Design, UI / UX Design and App Design. </p>
+                <p class="a2 slide-up">Currently working as Designer at <a href="https://spideraf.com/" target="_blank" title="Spider AF | Defend Against Invalid Traffic & Ad Fraud">Spider AF</a> from Tokyo 🇯🇵,
+                    where I do my best to take the company to the next level collaborating with an amazing team to build
+                    the best anti-fraud tool in the market and help our clients protect their marketing budgets.</p>
+                <p class="m-top20 a3 slide-up">I was born and raised in the 😎 sunny <a href="https://www.visitportugal.com/en" target="_blank" title="Come and visit Portugal!">Portugal</a> 🇵🇹 and I design simple and clean interfaces and
+                    digital experiences such as Branding, Web Design, UI / UX Design and App Design. </p>
             </div>
             <div class="video-container a3 slide-up">
-                <!--<video width="640" height="460" loop autoplay muted>
+                <video width="100%" loop autoplay muted>
                     <source src="images/testing.mov" type="video/mp4">
                     <source src="movie.ogg" type="video/ogg">
-                  Your browser does not support the video tag.
-                  </video>-->
-                <img src="images/adolfo-background-photo.png" alt="A photo of me, in Rome, wearing my sunglasses.">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </div>
