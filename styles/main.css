@@ -253,7 +253,7 @@ body {
     border-radius   : 4px;
     border          : 8px solid var(--primary-color);
     background-color: var(--primary-color);
-    border-bottom   : 6px solid white;
+    border-bottom   : 6px solid var(--primary-color);
 }
 
 
@@ -295,9 +295,9 @@ body {
 
 a {
     color          : var(--primary-color);
+    font-weight    : var(--strong-text);
     text-decoration: none;
     transition     : 0.3s;
-    font-weight    : var(--strong-text);
 }
 
 a:hover {
