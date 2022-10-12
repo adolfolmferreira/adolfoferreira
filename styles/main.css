@@ -232,12 +232,20 @@ body {
     justify-content : space-between;
 }
 
-.intro-text {
+/*.intro-text {
     width           : 50%;
     height          : 100%;
     margin-top      : 73px;
     background-color: transparent;
+}*/
+
+.intro-text {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
+
 
 .intro-text h1 {
     margin-bottom: 30px;
