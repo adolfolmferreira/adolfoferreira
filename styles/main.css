@@ -145,21 +145,23 @@ table {
 /* ---------------------------- VARIABLES ---------------------------- */
 
 :root {
-    --main-bg-color  : #161616;
-    --primary-color  : #ffffff;
+    --main-bg-color  : #ffffff;
+    --primary-color  : #1e171c;
     --secondary-color: #9f82ff;
-    --tertiary-color : #8f8f8f;
+    --tertiary-color : #828282;
+    --outline-color  : #ebebeb;
     --main-font      : 'Inter', sans-serif;
-    --light-text     : 300;
-    --regular-text   : 400;
-    --strong-text    : 600;
-}
-
-
-/* -- MARGINS */
-
-.m-top20 {
-    margin-top: 20px;
+    --light-text     : 400;
+    --regular-text   : 500;
+    --strong-text    : 700;
+    --font-62        : 62px;
+    --font-32        : 32px;
+    --font-20        : 20px;
+    --font-16        : 16px;
+    --font-14        : 14px;
+    --spacing-120    : 120px;
+    --spacing-60     : 60px;
+    --spacing-40     : 40px;
 }
 
 /* ---------------------------- BODY & HTML ---------------------------- */
@@ -178,9 +180,7 @@ body {
 }
 
 .main-container {
-    width           : 90%;
-    margin          : 20px auto 0 auto;
-    background-color: transparent;
+    background-color: var(--secondary-color);
 }
 
 
@@ -233,10 +233,10 @@ body {
 }
 
 .intro-text {
-    flex: 0 0 50%;
-    display: flex;
+    flex          : 0 0 50%;
+    display       : flex;
     flex-direction: column;
-    align-self: center;
+    align-self    : center;
 }
 
 
