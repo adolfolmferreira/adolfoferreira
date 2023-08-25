@@ -199,10 +199,6 @@ body {
     overscroll-behavior: none;
 }
 
-.main-container {
-    background-color: var(--secondary-color);
-}
-
 footer {
     background-color: var(--primary-color);
 }
