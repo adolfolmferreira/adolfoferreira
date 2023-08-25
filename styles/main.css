@@ -200,6 +200,12 @@ body {
     overscroll-behavior: none;
 }
 
+body>header {
+    background-color:var(--main-bg-color);
+    height: var(--spacing-m)+8;
+    margin-top: var(--spacing-l);
+}
+
 footer {
     background-color: var(--primary-color);
 }
