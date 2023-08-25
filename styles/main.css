@@ -168,9 +168,10 @@ table {
     --font-20        : 20px;
     --font-16        : 16px;
     --font-14        : 14px;
-    --spacing-120    : 120px;
-    --spacing-60     : 60px;
-    --spacing-40     : 40px;
+    --padding-15     : 15%;
+    --spacing-xl     : 120px;
+    --spacing-l      : 60px;
+    --spacing-m      : 40px;
 }
 
 /* ---------------------------- BODY & HTML ---------------------------- */
@@ -181,6 +182,8 @@ table {
 
 html {
     background-color: var(--main-bg-color);
+    padding-left    : var(--padding-15);
+    padding-right   : var(--padding-15);
 }
 
 body {
