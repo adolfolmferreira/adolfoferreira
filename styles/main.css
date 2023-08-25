@@ -10,6 +10,15 @@
 
 /* ---------------------------- RESET PROPERTIES ---------------------------- */
 
+* {
+    -webkit-font-smoothing       : antialiased;
+    box-sizing                   : border-box;
+    font-feature-settings        : "kern"1, "liga"1 "smcp"1;
+    -webkit-font-feature-settings: "smcp"1;
+    -moz-font-feature-settings   : "smcp"1;
+    -ms-font-feature-settings    : "smcp"1;
+}
+
 html,
 body,
 div,
@@ -170,10 +179,13 @@ table {
     box-sizing: inherit;
 }
 
+html {
+    background-color: var(--main-bg-color);
+}
+
 body {
     margin-top         : 0px;
     padding-top        : 0px;
-    background-color   : var(--main-bg-color);
     font-family        : var(--main-font);
     text-size-adjust   : 100%;
     overscroll-behavior: none;
