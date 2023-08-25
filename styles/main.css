@@ -182,8 +182,13 @@ table {
 
 html {
     background-color: var(--main-bg-color);
-    padding-left    : var(--padding-15);
-    padding-right   : var(--padding-15);
+}
+
+header,
+main,
+footer {
+    padding-left : var(--padding-15);
+    padding-right: var(--padding-15);
 }
 
 body {
