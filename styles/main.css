@@ -160,8 +160,8 @@ table {
     --tertiary-color : #828282;
     --outline-color  : #ebebeb;
     --main-font      : 'Inter', sans-serif;
-    --light-text     : 400;
-    --regular-text   : 500;
+    --regular-text   : 400;
+    --medium-text    : 500;
     --strong-text    : 700;
     --font-62        : 62px;
     --font-32        : 32px;
@@ -217,7 +217,13 @@ nav {
     flex-direction : row;
     justify-content: flex-start;
     align-items    : center;
-    gap: 10px;
+    gap            : 10px;
+}
+
+nav>h1 {
+    color      : var(--primary-color);
+    font-size  : var(--font-20);
+    font-weight: var(--medium-text);
 }
 
 footer {
