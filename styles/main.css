@@ -201,9 +201,13 @@ body {
 }
 
 body>header {
-    background-color:var(--main-bg-color);
-    height: calc(var(--spacing-m) + 8px);
-    margin-top: var(--spacing-l);
+    background-color: var(--main-bg-color);
+    height          : calc(var(--spacing-m) + 8px);
+    margin-top      : var(--spacing-l);
+    display         : flex;
+    flex-direction  : row;
+    justify-content : flex-start;
+    align-items     : stretch;
 }
 
 footer {
