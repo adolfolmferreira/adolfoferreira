@@ -220,7 +220,8 @@ nav {
     gap            : 10px;
 }
 
-nav>h1 {
+nav,
+h1 {
     color      : var(--primary-color);
     font-size  : var(--font-20);
     font-weight: var(--medium-text);
