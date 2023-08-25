@@ -186,6 +186,7 @@ html {
 
 header,
 main,
+section,
 footer {
     padding-left : var(--padding-15);
     padding-right: var(--padding-15);
