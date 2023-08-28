@@ -299,6 +299,13 @@ main .bio-text span {
     margin-top: var(--spacing-m);
 }
 
+.articles-container .wrapper article {
+    display       : flex;
+    flex-direction: column;
+    align-content : flex-start;
+    gap           : 12px;
+}
+
 .articles-container article .label {
     font-size  : var(--font-16);
     font-weight: var(--medium-text);
