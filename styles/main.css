@@ -306,10 +306,6 @@ main .bio-text span {
     margin-top : var(--spacing-s);
 }
 
-.articles-container .wrapper {
-    margin-top: var(--spacing-m);
-}
-
 .articles-container .wrapper article {
     display       : flex;
     flex-direction: column;
