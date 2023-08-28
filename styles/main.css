@@ -326,6 +326,16 @@ main .bio-text span {
     color      : var(--primary-color);
 }
 
+.articles-container article h4 a {
+    color          : var(--primary-color);
+    text-decoration: none;
+}
+
+.articles-container article h4 a:hover {
+    color          : var(--secondary-color);
+    text-decoration: underline;
+}
+
 .articles-container article p {
     width      : 72%;
     font-size  : var(--font-16);
