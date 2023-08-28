@@ -172,6 +172,7 @@ table {
     --spacing-xl     : 120px;
     --spacing-l      : 60px;
     --spacing-m      : 40px;
+    --spacing-s      : 20px;
 }
 
 /* ---------------------------- BODY & HTML ---------------------------- */
@@ -279,10 +280,17 @@ main .bio-text span {
     font-weight: var(--strong-text);
 }
 
-.articles-container h3 {
+.articles-container div h3 {
     font-size  : var(--font-32);
     font-weight: var(--regular-text);
     color      : var(--primary-color);
+}
+
+.articles-container div p {
+    font-size  : var(--font-20);
+    font-weight: var(--regular-text);
+    color      : var(--tertiary-color);
+    margin-top : var(--spacing-s);
 }
 
 footer {
