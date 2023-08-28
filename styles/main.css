@@ -281,18 +281,18 @@ main .bio-text span {
 }
 
 .articles-container div h3 {
+    width      : 72%;
     font-size  : var(--font-32);
     font-weight: var(--regular-text);
     color      : var(--primary-color);
-    width      : max-content;
 }
 
 .articles-container div>p {
+    width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
     margin-top : var(--spacing-s);
-    width      : max-content;
 }
 
 .articles-container .wrapper {
