@@ -239,11 +239,13 @@ nav div img {
     filter        : drop-shadow(0px 20px 12px rgba(30, 23, 28, 0.5));
 }
 
-main {
+main,
+.articles-container {
     background-color: var(--main-bg-color);
     border-bottom   : 1px solid var(--outline-color);
     padding-top     : var(--spacing-xl);
     padding-bottom  : var(--spacing-xl);
+
 }
 
 main h2 {
@@ -266,7 +268,7 @@ main .intro-text {
 }
 
 main .bio-text {
-    width      : 70%;
+    width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
@@ -275,6 +277,12 @@ main .bio-text {
 
 main .bio-text span {
     font-weight: var(--strong-text);
+}
+
+.articles-container h3 {
+    font-size  : var(--font-32);
+    font-weight: var(--regular-text);
+    color      : var(--primary-color);
 }
 
 footer {
