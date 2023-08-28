@@ -256,6 +256,9 @@ main .intro-text {
     font-size  : var(--font-62);
     font-weight: var(--medium-text);
     color      : var(--primary-color);
+    line-height: 120%;
+    width: 80%;
+    margin-top: var(--spacing-m);
 }
 
 footer {
