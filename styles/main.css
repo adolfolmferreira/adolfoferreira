@@ -333,7 +333,6 @@ main .bio-text span {
 
 .articles-container article h4 a:hover {
     color          : var(--secondary-color);
-    text-decoration: underline;
 }
 
 .articles-container article p {
