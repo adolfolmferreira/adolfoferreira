@@ -284,7 +284,7 @@ main .bio-text span {
     font-size  : var(--font-32);
     font-weight: var(--regular-text);
     color      : var(--primary-color);
-    width: max-content;
+    width      : max-content;
 }
 
 .articles-container div p {
@@ -292,7 +292,28 @@ main .bio-text span {
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
     margin-top : var(--spacing-s);
-    width: max-content;
+    width      : max-content;
+}
+
+.articles-container article .label {
+    font-size  : var(--font-16);
+    font-weight: var(--medium-text);
+    color      : var(--tertiary-color);
+}
+
+.articles-container article h4 {
+    width      : 72%;
+    font-size  : var(--font-20);
+    font-weight: var(--medium-text);
+    color      : var(--primary-color);
+}
+
+.articles-container article p {
+    width      : 72%;
+    font-size  : var(--font-16);
+    font-weight: var(--regular-text);
+    color      : var(--tertiary-color);
+    margin-top : var(--spacing-s);
 }
 
 footer {
