@@ -175,6 +175,17 @@ table {
     --spacing-s      : 20px;
 }
 
+
+/* ---------------------------- MARGINS & SPACINGS ---------------------------- */
+
+.top-margin-m {
+    margin-top: var(--spacing-m);
+}
+
+.top-margin-s {
+    margin-top: var(--spacing-s);
+}
+
 /* ---------------------------- BODY & HTML ---------------------------- */
 
 * {
