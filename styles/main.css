@@ -236,8 +236,8 @@ nav div p {
 nav div img {
     height        : calc(var(--spacing-m) + 8px);
     width         : calc(var(--spacing-m) + 8px);
-    -webkit-filter: drop-shadow(0px 20px 12px rgba(30, 23, 28, 0.5));
-    filter        : drop-shadow(0px 20px 12px rgba(30, 23, 28, 0.5));
+    -webkit-filter: drop-shadow(0px 12px 12px rgba(30, 23, 28, 0.5));
+    filter        : drop-shadow(0px 12px 12px rgba(30, 23, 28, 0.5));
 }
 
 main,
@@ -284,6 +284,7 @@ main .bio-text span {
     font-size  : var(--font-32);
     font-weight: var(--regular-text);
     color      : var(--primary-color);
+    width: max-content;
 }
 
 .articles-container div p {
@@ -291,6 +292,7 @@ main .bio-text span {
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
     margin-top : var(--spacing-s);
+    width: max-content;
 }
 
 footer {
