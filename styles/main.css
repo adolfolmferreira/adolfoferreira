@@ -252,13 +252,25 @@ main h2 {
     color      : var(--tertiary-color);
 }
 
+.intro-text,
+.bio-text {
+    margin-top: var(--spacing-m);
+}
+
 main .intro-text {
+    width      : 80%;
     font-size  : var(--font-62);
     font-weight: var(--medium-text);
     color      : var(--primary-color);
     line-height: 120%;
-    width: 80%;
-    margin-top: var(--spacing-m);
+}
+
+main .bio-text {
+    width      : 70%;
+    font-size  : var(--font-20);
+    font-weight: var(--regular-text);
+    color      : var(--tertiary-color);
+    line-height: 220%;
 }
 
 footer {
