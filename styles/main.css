@@ -273,6 +273,10 @@ main .bio-text {
     line-height: 220%;
 }
 
+main .bio-text span {
+    font-weight: var(--strong-text);
+}
+
 footer {
     background-color: var(--primary-color);
 }
