@@ -287,12 +287,16 @@ main .bio-text span {
     width      : max-content;
 }
 
-.articles-container div p {
+.articles-container>div p {
     font-size  : var(--font-20);
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
     margin-top : var(--spacing-s);
     width      : max-content;
+}
+
+.articles-container .wrapper {
+    margin-top: var(--spacing-m);
 }
 
 .articles-container article .label {
