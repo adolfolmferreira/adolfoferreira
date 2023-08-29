@@ -409,3 +409,8 @@ footer div p a:hover {
     color      : var(--main-bg-color);
     text-decoration: none;
 }
+
+footer .copyright-container {
+    font-size: var(--font-14);
+    color: var(--tertiary-color);
+}
