@@ -186,6 +186,14 @@ table {
     margin-top: var(--spacing-s);
 }
 
+.bottom-margin-s {
+    margin-bottom: var(--spacing-s);
+}
+
+.right-margin-xl {
+    margin-right: var(--spacing-xl);
+}
+
 /* ---------------------------- BODY & HTML ---------------------------- */
 
 * {
@@ -302,14 +310,15 @@ main .bio-text span {
     color      : var(--primary-color);
 }
 
-.articles-container div>p,
-.experience-container div>p,
-.social-container div>p {
+.articles-container div p.section-intro,
+.experience-container div p.section-intro,
+.social-container div p.section-intro {
     width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--regular-text);
     color      : var(--tertiary-color);
     margin-top : var(--spacing-s);
+    line-height: 140%;
 }
 
 ul.wrapper {
@@ -327,26 +336,31 @@ ul.wrapper {
 }
 
 .articles-container article .label,
-.experience-container .wrapper .label {
-    font-size  : var(--font-16);
-    font-weight: var(--medium-text);
-    color      : var(--tertiary-color);
+.experience-container .wrapper .label,
+.social-container .wrapper .label {
+    font-size     : var(--font-16);
+    font-weight   : var(--medium-text);
+    color         : var(--tertiary-color);
+    text-transform: uppercase;
 }
 
 .articles-container article h4,
-.experience-container div h4 {
+.experience-container div h4,
+.social-container div h4 {
     width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--medium-text);
     color      : var(--primary-color);
 }
 
-.articles-container article h4 a {
+.articles-container article h4 a,
+.social-container div h4 a {
     color          : var(--primary-color);
     text-decoration: none;
 }
 
-.articles-container article h4 a:hover {
+.articles-container article h4 a:hover,
+.social-container div h4 a:hover {
     color: var(--secondary-color);
 }
 
@@ -358,6 +372,10 @@ ul.wrapper {
     color      : var(--tertiary-color);
     margin-top : calc(var(--spacing-s) / 2px);
     line-height: 160%;
+}
+
+.social-container .wrapper ul li {
+    display: inline-block;
 }
 
 footer {
