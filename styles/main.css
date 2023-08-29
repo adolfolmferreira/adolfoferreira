@@ -253,7 +253,8 @@ nav div img {
 
 main,
 .articles-container,
-.experience-container {
+.experience-container,
+.social-container {
     background-color: var(--main-bg-color);
     border-bottom   : 1px solid var(--outline-color);
     padding-top     : var(--spacing-xl);
@@ -293,7 +294,8 @@ main .bio-text span {
 }
 
 .articles-container div h3,
-.experience-container div h3 {
+.experience-container div h3,
+.social-container div h3 {
     width      : 72%;
     font-size  : var(--font-32);
     font-weight: var(--regular-text);
@@ -301,7 +303,8 @@ main .bio-text span {
 }
 
 .articles-container div>p,
-.experience-container div>p {
+.experience-container div>p,
+.social-container div>p {
     width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--regular-text);
