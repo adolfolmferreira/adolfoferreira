@@ -315,20 +315,23 @@ ul.wrapper {
     margin    : 0;
 }
 
-.articles-container .wrapper article {
+.articles-container .wrapper article,
+.experience-container .wrapper div {
     display       : flex;
     flex-direction: column;
     align-content : flex-start;
     gap           : 12px;
 }
 
-.articles-container article .label {
+.articles-container article .label,
+.experience-container .wrapper .label {
     font-size  : var(--font-16);
     font-weight: var(--medium-text);
     color      : var(--tertiary-color);
 }
 
-.articles-container article h4 {
+.articles-container article h4,
+.experience-container div h4 {
     width      : 72%;
     font-size  : var(--font-20);
     font-weight: var(--medium-text);
