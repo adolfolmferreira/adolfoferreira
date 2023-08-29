@@ -399,18 +399,18 @@ footer {
 }
 
 footer div p a {
-    font-size  : var(--font-32);
-    font-weight: var(--strong-text);
-    color      : var(--secondary-color);
+    font-size      : var(--font-32);
+    font-weight    : var(--strong-text);
+    color          : var(--secondary-color);
     text-decoration: none;
 }
 
 footer div p a:hover {
-    color      : var(--main-bg-color);
+    color          : var(--main-bg-color);
     text-decoration: none;
 }
 
 footer .copyright-container {
     font-size: var(--font-14);
-    color: var(--tertiary-color);
+    color    : var(--tertiary-color);
 }
