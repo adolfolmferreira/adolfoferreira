@@ -347,7 +347,8 @@ ul.wrapper {
     color: var(--secondary-color);
 }
 
-.articles-container article p {
+.articles-container article p,
+.experience-container div p {
     width      : 72%;
     font-size  : var(--font-16);
     font-weight: var(--regular-text);
