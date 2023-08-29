@@ -263,6 +263,13 @@ nav div img {
     filter        : drop-shadow(0px 12px 12px rgba(30, 23, 28, 0.5));
 }
 
+main {
+    background-image: url('../images/adolfoferreira_bg@2x.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 1474px;
+}
+
 main,
 .articles-container,
 .experience-container,
