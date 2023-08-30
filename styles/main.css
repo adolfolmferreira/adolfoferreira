@@ -264,10 +264,10 @@ nav div img {
 }
 
 main {
-    background-image: url('../images/adolfoferreira_bg@2x.png');
+    background-image   : url('../images/adolfoferreira_bg@2x.png');
     background-position: right -680px bottom 0;
-    background-repeat: no-repeat;
-    background-size: 1448px;
+    background-repeat  : no-repeat;
+    background-size    : 1448px;
 }
 
 main,
@@ -420,4 +420,34 @@ footer div p a:hover {
 footer .copyright-container {
     font-size: var(--font-14);
     color    : var(--tertiary-color);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    header,
+    main,
+    section,
+    footer {
+        padding-left : calc(var(--padding-15) - 10%);
+        padding-right: calc(var(--padding-15) - 10%);
+    }
+
+    main,
+    .articles-container,
+    .experience-container,
+    .social-container {
+        padding-top   : calc(var(--spacing-xl)/2);
+        padding-bottom: calc(var(--spacing-xl)/2);
+
+    }
+
+    main h2 {
+        font-size: var(--font-20);
+    }
+
+    main .intro-text {
+        width    : 100%;
+        font-size: var(--font-32);
+    }
 }
