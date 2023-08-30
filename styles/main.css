@@ -265,9 +265,9 @@ nav div img {
 
 main {
     background-image: url('../images/adolfoferreira_bg@2x.png');
-    background-position: right bottom;
+    background-position: right -680px bottom 0;
     background-repeat: no-repeat;
-    background-size: 1474px;
+    background-size: 1448px;
 }
 
 main,
