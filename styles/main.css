@@ -443,11 +443,11 @@ footer .copyright-container {
     }
 
     header nav {
-        width          : 100%;
-        display        : flex;
-        flex-direction : column;
-        align-items    : flex-start;
-        gap            : 10px;
+        width         : 100%;
+        display       : flex;
+        flex-direction: column;
+        align-items   : flex-start;
+        gap           : 10px;
     }
 
     main,
@@ -491,6 +491,22 @@ footer .copyright-container {
     footer div h3 {
         width    : 100%;
         font-size: var(--font-20);
+    }
+
+    .articles-container article h4,
+    .experience-container div h4,
+    .social-container div h4 {
+        width      : 100%;
+        font-size  : var(--font-20);
+        line-height: 160%;
+    }
+
+    .articles-container div p.section-intro,
+    .experience-container div p.section-intro,
+    .social-container div p.section-intro,
+    footer div p {
+        width    : 100%;
+        font-size: var(--font-16);
     }
 
     footer,
