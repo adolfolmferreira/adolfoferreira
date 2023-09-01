@@ -436,9 +436,10 @@ footer .copyright-container {
     main,
     .articles-container,
     .experience-container,
-    .social-container {
-        padding-top   : calc(var(--spacing-xl)/2);
-        padding-bottom: calc(var(--spacing-xl)/2);
+    .social-container,
+    footer {
+        padding-top   : var(--spacing-l);
+        padding-bottom: var(--spacing-l);
 
     }
 
@@ -449,5 +450,10 @@ footer .copyright-container {
     main .intro-text {
         width    : 100%;
         font-size: var(--font-32);
+    }
+
+    footer,
+    footer div p a {
+        font-size: var(--font-20);
     }
 }
