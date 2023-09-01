@@ -435,8 +435,11 @@ footer .copyright-container {
     }
 
     header nav {
-        flex-direction: column;
-        align-items   : left;
+        height         : auto;
+        display        : flex;
+        flex-direction : column;
+        justify-content: flex-start;
+        align-items    : left;
     }
 
     main,
@@ -449,6 +452,12 @@ footer .copyright-container {
 
     }
 
+    main {
+        background-position: center bottom;
+        background-size    : 690px;
+        height             : 980px;
+    }
+
     main h2 {
         font-size: var(--font-20);
     }
@@ -456,6 +465,17 @@ footer .copyright-container {
     main .intro-text {
         width    : 100%;
         font-size: var(--font-32);
+    }
+
+    .intro-text,
+    .bio-text {
+        margin-top: var(--spacing-s);
+    }
+
+    main .bio-text {
+        width      : 100%;
+        font-size  : var(--font-16);
+        line-height: 140%;
     }
 
     footer,
