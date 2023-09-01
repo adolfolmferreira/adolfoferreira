@@ -425,6 +425,8 @@ footer .copyright-container {
     color    : var(--tertiary-color);
 }
 
+/* ---------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------- */
+
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
@@ -492,8 +494,9 @@ footer .copyright-container {
     .experience-container div h3,
     .social-container div h3,
     footer div h3 {
-        width    : 100%;
-        font-size: calc(var(--font-32) - 8px);
+        width      : 100%;
+        font-size  : calc(var(--font-32) - 8px);
+        line-height: 140%;
     }
 
     .articles-container div p.section-intro,
@@ -502,7 +505,7 @@ footer .copyright-container {
     footer div p {
         width     : 100%;
         font-size : var(--font-16);
-        margin-top: calc(var(--spacing-s - 10px));
+        margin-top: calc(var(--spacing-s) - 10px);
     }
 
     .articles-container article h4,
@@ -526,12 +529,22 @@ footer .copyright-container {
     .articles-container article .label,
     .experience-container .wrapper .label,
     .social-container .wrapper .label {
-        font-size  : var(--font-14);
-        font-weight: var(--medium-text);
+        font-size    : var(--font-14);
+        font-weight  : var(--medium-text);
+        margin-bottom: 2px !important;
     }
 
     .social-container .wrapper .label {
         text-transform: uppercase;
+    }
+
+    .social-container .wrapper ul li {
+        display      : block;
+        margin-bottom: 32px;
+    }
+
+    .social-container .wrapper ul li:last-child {
+        margin-bottom: 0px;
     }
 
     footer,
