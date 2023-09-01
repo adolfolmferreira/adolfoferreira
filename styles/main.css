@@ -551,6 +551,11 @@ footer .copyright-container {
     footer div p a {
         font-size: var(--font-20);
     }
+
+    footer .copyright-container {
+        font-size  : var(--font-14);
+        line-height: 180%;
+    }
 }
 
 @media only screen and (max-width: 844px) and (orientation: landscape) {
