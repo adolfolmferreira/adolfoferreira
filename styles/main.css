@@ -359,9 +359,12 @@ ul.wrapper {
 .articles-container article .label,
 .experience-container .wrapper .label,
 .social-container .wrapper .label {
-    font-size     : var(--font-16);
-    font-weight   : var(--medium-text);
-    color         : var(--tertiary-color);
+    font-size  : var(--font-16);
+    font-weight: var(--medium-text);
+    color      : var(--tertiary-color);
+}
+
+.social-container .wrapper .label {
     text-transform: uppercase;
 }
 
@@ -493,12 +496,22 @@ footer .copyright-container {
         font-size: calc(var(--font-32) - 8px);
     }
 
+    .articles-container div p.section-intro,
+    .experience-container div p.section-intro,
+    .social-container div p.section-intro,
+    footer div p {
+        width     : 100%;
+        font-size : var(--font-16);
+        margin-top: calc(var(--spacing-s - 10px));
+    }
+
     .articles-container article h4,
     .experience-container div h4,
     .social-container div h4 {
         width      : 100%;
         font-size  : var(--font-20);
-        line-height: 160%;
+        font-size  : calc(var(--font-20 - 2px));
+        line-height: 140%;
     }
 
 
@@ -508,6 +521,17 @@ footer .copyright-container {
         width      : 100%;
         margin-top : 0px;
         line-height: 160%;
+    }
+
+    .articles-container article .label,
+    .experience-container .wrapper .label,
+    .social-container .wrapper .label {
+        font-size  : var(--font-14);
+        font-weight: var(--medium-text);
+    }
+
+    .social-container .wrapper .label {
+        text-transform: uppercase;
     }
 
     footer,
