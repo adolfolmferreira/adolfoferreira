@@ -552,3 +552,24 @@ footer .copyright-container {
         font-size: var(--font-20);
     }
 }
+
+@media only screen and (max-width: 844px) and (orientation: landscape) {
+
+    header,
+    main,
+    section,
+    footer {
+        padding-left : calc(var(--padding-15) - 10%);
+        padding-right: calc(var(--padding-15) - 10%);
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    main {
+        height: 990px;
+    }
+
+    nav div p {
+        font-size: var(--font-14);
+    }
+}
