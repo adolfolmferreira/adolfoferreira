@@ -512,8 +512,7 @@ footer .copyright-container {
     .experience-container div h4,
     .social-container div h4 {
         width      : 100%;
-        font-size  : var(--font-20);
-        font-size  : calc(var(--font-20 - 2px));
+        font-size  : calc(var(--font-20) - 2px);
         line-height: 140%;
     }
 
