@@ -490,7 +490,7 @@ footer .copyright-container {
     .social-container div h3,
     footer div h3 {
         width    : 100%;
-        font-size: var(--font-20);
+        font-size: calc(var(--font-32)-8px);
     }
 
     .articles-container article h4,
