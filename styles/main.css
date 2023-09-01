@@ -542,6 +542,14 @@ footer .copyright-container {
         margin-bottom: 32px;
     }
 
+    .articles-container .wrapper article,
+    .experience-container .wrapper div {
+        display       : flex;
+        flex-direction: column;
+        align-content : flex-start;
+        gap           : 4px;
+    }
+
     .social-container .wrapper ul li:last-child {
         margin-bottom: 0px;
     }
@@ -556,6 +564,8 @@ footer .copyright-container {
         line-height: 180%;
     }
 }
+
+/* Extra small devices (phones landscape) */
 
 @media only screen and (max-width: 844px) and (orientation: landscape) {
 
