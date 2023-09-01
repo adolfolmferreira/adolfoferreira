@@ -434,8 +434,9 @@ footer .copyright-container {
         padding-right: calc(var(--padding-15) - 10%);
     }
 
-    header nav {
-        height         : auto;
+    body>header {
+        min-height     : calc(var(--spacing-m) + 8px);
+        margin-top     : var(--spacing-m);
         display        : flex;
         flex-direction : column;
         justify-content: flex-start;
@@ -473,9 +474,8 @@ footer .copyright-container {
     }
 
     main .bio-text {
-        width      : 100%;
-        font-size  : var(--font-16);
-        line-height: 140%;
+        width    : 100%;
+        font-size: var(--font-16);
     }
 
     footer,
