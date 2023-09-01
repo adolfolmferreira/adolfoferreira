@@ -501,12 +501,12 @@ footer .copyright-container {
         line-height: 160%;
     }
 
-    .articles-container div p.section-intro,
-    .experience-container div p.section-intro,
-    .social-container div p.section-intro,
-    footer div p {
-        width    : 100%;
-        font-size: var(--font-16);
+
+    .articles-container article p,
+    .experience-container div p {
+        width      : 100%;
+        margin-top : var(--spacing-s);
+        line-height: 160%;
     }
 
     footer,
