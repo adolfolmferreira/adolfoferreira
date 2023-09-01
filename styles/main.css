@@ -251,7 +251,7 @@ nav div h1 {
 
 nav div p {
     color      : var(--tertiary-color);
-    font-size  : var(--font-16);
+    font-size  : var(--font-14);
     font-weight: var(--regular-text);
     margin-top : 4px;
 }
