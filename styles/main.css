@@ -490,7 +490,7 @@ footer .copyright-container {
     .social-container div h3,
     footer div h3 {
         width    : 100%;
-        font-size: calc(var(--font-32)-8px);
+        font-size: calc(var(--font-32) - 8px);
     }
 
     .articles-container article h4,
@@ -503,9 +503,10 @@ footer .copyright-container {
 
 
     .articles-container article p,
+    p.section-intro,
     .experience-container div p {
         width      : 100%;
-        margin-top : var(--spacing-s);
+        margin-top : 0px;
         line-height: 160%;
     }
 
