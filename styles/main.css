@@ -425,7 +425,25 @@ footer .copyright-container {
     color    : var(--tertiary-color);
 }
 
-/* ---------------------------- MEDIA QUERIES FOR MOBILE DEVICES ---------------------------- */
+/* ---------------------------- MEDIA QUERIES FOR RESPONSIVENESS ---------------------------- */
+
+/* When the browser is at least 1480px and above */
+@media screen and (min-width: 1480px) {
+    main {
+        background-position: right -630px bottom 0;
+        background-size    : 1380px;
+    }
+
+    main,
+    .articles-container,
+    .experience-container,
+    .social-container {
+        padding-top   : calc(var(--spacing-xl)*1.5);
+        padding-bottom: calc(var(--spacing-xl)*1.5);
+
+    }
+
+}
 
 /* Extra small devices (phones, 600px and down) */
 
