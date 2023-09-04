@@ -583,6 +583,15 @@ footer .copyright-container {
     }
 }
 
+/* Extra small devices (phones, 375px and up) */
+
+@media only screen and (min-width: 375px) {
+    main {
+        height: 980px;
+    }
+
+}
+
 /* Extra small devices (phones landscape) */
 
 @media only screen and (max-width: 844px) and (orientation: landscape) {
