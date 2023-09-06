@@ -12,7 +12,7 @@
     # List files to upload to ftp server
     files: 
     # Source folder
-    src: # optional, default is 
+    src: 
     # Destination folder
     dest: /home/adolfofe/adolfoferreira.com/public_html
     # For debug
